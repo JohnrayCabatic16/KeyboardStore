@@ -1,0 +1,94 @@
+html, body{
+    font-size: 80%;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+    
+	
+}
+
+	
+
+
+#page {
+max-width: 1200px;
+min-width: 720px;
+margin: 10px auto 10px auto;
+border: 4px double #000000;
+border-radius: 7px;
+display: flex;
+
+flex-direction: column;
+align-items: center;
+
+
+}
+
+#logo img {
+width: 200px;
+height: auto;
+margin: 5px auto 20px auto;
+transform: none;
+}
+
+ul {
+width: 90%;
+padding: 15px;
+margin: 0px 0px 0px 0px;
+border-top: 2px solid black;
+border-bottom: 1px solid #050505;
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+}
+
+li {
+font-size: 15px;
+display: inline;
+margin: 0px 10px;
+}
+
+#contain img{
+transition: transform 1s;
+width: 200px;
+height: auto;
+margin: 10px 15px;
+text-align: center;
+border-radius: 10px;
+}
+
+img:hover {
+transform:scale(1.2);
+}
+p {
+font-size: 20px;
+text-align: center;
+width: 85%;
+padding: 0px;
+margin: 20px auto 20px auto;
+font-weight: 500;
+color: rgba(255, 255, 255, 0.733);
+margin-top: %;
+}
+
+.p {font-size:20px;
+text-align: center;
+width: 85%;
+padding: 30px;
+margin: 20px auto 20px auto;
+font-weight: 500;
+color: rgba(255, 255, 255, 0.733);
+margin-: %;}
+
+a {
+    color: rgba(255, 255, 255, 0.733);
+    text-transform: uppercase;
+text-decoration: none;
+padding: 6px 10px;
+
+}
+
+a:hover, a.off {
+color: #212020;
+background-color: #e9e6e691;
+}
